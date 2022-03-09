@@ -1,6 +1,6 @@
 console.error("HTTPS error, given by matrenas@tcd.org")
 
-window.addEventListener("load",() => {
+function asd(){
   var frase = ["Puro entretenimiento :)","Dale en <a href=\"https://github.com/tonicraft18\" style=\"text-decoration: none\">mi GitHub :D"+
   "</a>","Junior Programmer","S&iacute;gueme tambi&eacute;n en twitter uwu","Buena m&uacute;sica&nbsp;&iquest;no bro?","Web Deevelopeeer",
   "Música: Casin - glue70","Ingeniero en camino :D","Periodic Hour?","uwu","Energy = Much * Coffe^2","idk what put here","git commit -m "+
@@ -15,4 +15,4 @@ window.addEventListener("load",() => {
   num = parseInt(num)
   document.getElementById("rand").innerHTML = frase[num];
   console.log(frase.length + " / " + num)
-})
+}
