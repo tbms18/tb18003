@@ -1,0 +1,20 @@
+{
+    "dias" : {
+            "1" : [
+                "Estructuras de Datos" , "Bases de Datos" , "Estructura de Computadores"
+            ],
+            "2" : [
+                "Estructura de Computadores" , "Teoría de Autómatas y Lenguajes Formales" , "Bases de Datos"
+            ],
+            "3" : [
+                "Análisis y Diseño de Algoritmos" , "Bases de Datos" , "Estructuras de Datos"
+            ],
+            "4" : [
+                "Teoría de Autómatas y Lenguajes Formales" , "Estructura de Computadores" , "Análisis y Diseño de Algoritmos"
+            ],
+            "5" : [
+                "Estructura de computadores" , "Teoría de Autómatas y Lenguajes Formales" , "Bases de Datos"
+            ]
+    },
+    "name" : "2º Ing. de Software A"
+}
