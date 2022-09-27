@@ -48,7 +48,7 @@ function getDay(day){
 
 function today(data){
     var day = new Date()
-    day = 6
+    day = day.getDay()
     var table = "<table><tr><th>Horas</th><th>" + getDay(day) + "</th></tr><tr>"
     if(day > 0 && day < 6){
         for(var i = 0; i < 3 ; i++){
