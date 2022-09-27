@@ -48,7 +48,7 @@ function getDay(day){
 
 function today(data){
     var day = new Date()
-    day = day.getDay()
+    day = 6
     var table = "<table><tr><th>Horas</th><th>" + getDay(day) + "</th></tr><tr>"
     if(day > 0 && day < 6){
         for(var i = 0; i < 3 ; i++){
@@ -70,7 +70,7 @@ function today(data){
         }
         table += "</tr></table>"
     }else{
-        table += "¡No hay clase!"
+        table = "<h4>¡No hay clase!</h4>"
     }
 
     document.getElementById("tomo").innerHTML = table
