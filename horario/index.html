@@ -1,45 +1,62 @@
 <html lang="es_ES">
-    <head>
-        <meta charset="utf-8" />
-        <title id="wtitle"></title>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-            body{
-                font-family: 'JetBrains Mono', sans-serif;
-            }
-            h1,h3,h4{
-                text-align: center;
-            }
-            table{
-                text-align: center;
-                padding-left: 10%;
-                padding-right: 10%;
-            }
-            .today,.tomo{
-                align-content: center;
-            }
-            td {
-                padding: 0.3%;
-                border: 1px solid black;
-            }
-        </style>
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8" />
+    <title id="wtitle"></title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+        body {
+            font-family: 'JetBrains Mono', sans-serif;
+            background-color: #5c5c5c;
+        }
+
+        h1,
+        h3,
+        h4 {
+            text-align: center;
+        }
+
+        #table{
+            display: block;
+            justify-content: center;
+        }
+
+        .cont {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1%;
+        }
+
+        td {
+            padding: 0.3%;
+            border: 1px solid black;
+        }
+
+        #recuadro {
+            border: 3px solid black;
+            border-radius: 2em;
+            background-color: rgb(219, 219, 219);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="recuadro">
         <h1 id="title"></h1>
         <script src="horario.js"></script>
-        <table id="tabla">
-            <h3>Horario completo</h3>
-        </table>
-            <h3>Horario de Hoy</h3>
-            <div id="today" align="center">
+        <h3>Horario completo</h3>
+        <div class="cont" style="margin-left: 5em; margin-right: 5em;">
+            <table id="tabla">
                 
-            </div>
+            </table>
+        </div>
+        <h3>Horario de Hoy</h3>
+        <div id="today" class="cont"></div>
+        <h3>Horario de Mañana</h3>
+        <div id="tomo" class="cont"></div>
+    </div>
 
-            <h3>Horario de Mañana</h3>
-            <div id="tomo" align="center">
-                
-            </div>
-        
-    </body>
+</body>
+
 </html>
