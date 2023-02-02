@@ -1,19 +1,19 @@
 {
     "dias" : {
             "1" : [
-                "Estructuras de Datos" , "Bases de Datos" , "Estructura de Computadores"
+                "<b>Sistemas Operativos</b>" , "Redes y Sistemas Distribuidos" , "Introducción a Ingeniería de Software"
             ],
             "2" : [
-                "Estructura de Computadores" , "Teoría de Autómatas y Lenguajes Formales" , "Bases de Datos"
+                "<b>Introducción a la Ingeniería de Software</b>" , "Sistemas Inteligentes" , "Redes y Sistemas Distribuidos"
             ],
             "3" : [
-                "Análisis y Diseño de Algoritmos" , "Bases de Datos" , "Estructuras de Datos"
+                "<b>Redes y Sistemas Distribuidos</b>" , "Programación de Sistemas y Concurrencias" , "Sistemas Operativos"
             ],
             "4" : [
-                "Teoría de Autómatas y Lenguajes Formales" , "Estructura de Computadores" , "Análisis y Diseño de Algoritmos"
+                "<b>Sistemas Inteligentes</b>" , "Introducción a la Ingeniería de Software" , "Programación de Sistemas y Concurrencias"
             ],
             "5" : [
-                "Análisis y Diseño de Algoritmos" , "Estructura de Datos" , "Teoría de Autómatas y Lenguajes Formales"
+                "<b>Programación de Sistemas y Concurrencias</b>" , "Sistemas Operativos" , "Sistemas Inteligentes"
             ]
     },
     "name" : "2º Ing. de Software A"
