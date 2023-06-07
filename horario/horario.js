@@ -1,10 +1,9 @@
-window.onload = () => {
-    fetch("cursos/sw_a.json").then(response => response.json()).then(data => {
-        document.getElementById("title").innerHTML = "Horario de " + data.name
-        document.getElementById("wtitle").innerHTML = data.name
-        createTable(data.dias)
-        today(data.dias)
-    })
+window.onload = async () => {
+    const data = await (await fetch("cursos/sw_a.json")).json()
+    document.getElementById("title").innerHTML = "Horario de " + data.name
+    document.getElementById("wtitle").innerHTML = data.name
+    createTable(data.dias)
+    today(data.dias)
 }
 
 //make table
