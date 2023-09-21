@@ -1,20 +1,20 @@
 {
     "dias" : {
             "1" : [
-                "<b>Sistemas Operativos</b>" , "Redes y Sistemas Distribuidos" , "Introducción a Ingeniería de Software"
-            ],
+                "<b>Visión por Computador</b>" , "Modelado y Diseño de Software" , "Gestión de la Información"
+                        ],
             "2" : [
-                "<b>Introducción a la Ingeniería de Software</b>" , "Sistemas Inteligentes" , "Redes y Sistemas Distribuidos"
-            ],
+                "<b>Ingeniería de Requisitos</b>" , "Técnicas Computacionales" , "Gestión de la Información"
+                        ],
             "3" : [
-                "<b>Redes y Sistemas Distribuidos</b>" , "Programación de Sistemas y Concurrencias" , "Sistemas Operativos"
-            ],
+                "<b>Modelado y Diseño de Software</b>" , "Gestión de la Información" , "Visión por Computador"
+                        ],
             "4" : [
-                "<b>Sistemas Inteligentes</b>" , "Introducción a la Ingeniería de Software" , "Programación de Sistemas y Concurrencias"
-            ],
+                "<b>Ingeniería de Requisitos</b>" , "Técnicas Computacionales" , "Modelado y Diseño de Software"
+                        ],
             "5" : [
-                "<b>Programación de Sistemas y Concurrencias</b>" , "Sistemas Operativos" , "Sistemas Inteligentes"
-            ]
+                "<b>Ingeniería de Requisitos</b>" , "Técnicas Computacionales" , "Visión por Computador"
+                        ]
     },
-    "name" : "2º Ing. de Software A"
+    "name" : "3º Ing. del Software A"
 }
