@@ -1,5 +1,18 @@
-### Hi there 👋
+## tc18 :)
+(Currently studying Software Engineering at UMA)
 
+# Programming Languages
+- ☕ Java
+- 🪟 C#
+- ⚡ C/C++
+- 🐍 Python
+- 📱 Dart (Flutter)
+- 🛢  SQL
+
+# 📍 Languages (I speak)
+- 🥘 Spanish
+- 🥐 French
+- 💂🏼 English
 <!--
 **tonicraft18/tonicraft18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
