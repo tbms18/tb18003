@@ -1,7 +1,7 @@
-## tc18 :)
+# tc18 :)
 (Currently studying Software Engineering at UMA)
 
-# Programming Languages
+## Programming Languages
 - ☕ Java
 - 🪟 C#
 - ⚡ C/C++
@@ -9,7 +9,7 @@
 - 📱 Dart (Flutter)
 - 🛢  SQL
 
-# 📍 Languages (I speak)
+## 📍 Languages (I speak)
 - 🥘 Spanish
 - 🥐 French
 - 💂🏼 English
