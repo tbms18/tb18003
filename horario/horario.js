@@ -9,16 +9,18 @@ window.onload = async () => {
 //make table
 
 function createTable(data) {
-    var table = "<tr><th>Horas</th><th>Lunes</th><th>Martes</th><th>Mi&eacute;rcoles</th><th>Jueves</th><th>Viernes</th></tr>"
+    var table = "<tbody>";
 
     for (var i = 0; i < 3; i++) {
         table += "<tr>"
-        table += "<td>" + getHour(i) + "</td>"
+        table += "<th scope=\"row\">" + getHour(i) + "</th>"
         for (var j = 1; j <= 5; j++) {
             table += "<td>" + data[j][i] + "</td>"
         }
         table += "</tr>"
     }
+
+    table += "</tbody>"
 
     document.getElementById('tabla').innerHTML += table
 }
@@ -48,12 +50,12 @@ function getDay(day){
 function today(data){
     var day = new Date()
     day = day.getDay()
-    var table = "<table><tr><th>Horas</th><th>" + getDay(day) + "</th></tr><tr>"
+    var table = "<table class=\"mx-auto w-50 table table-striped\"><thead><tr class=\"text-center\"><th><scope class=\"row\">Horas</scope></th><th><scope class=\"row\">" + getDay(day) + "</scope></th></tr></thead><tbody><tr>"
     if(day > 0 && day < 6){
         for(var i = 0; i < 3 ; i++){
             table += "<td>"+getHour(i)+"</td><td>"+data[day][i]+"</td></tr><tr>"
         }
-        table += "</tr></table>"
+        table += "</tr></tbody></table>"
     }else{
         table = "<h4>¡No hay clase!</h4>"
     }
@@ -62,12 +64,12 @@ function today(data){
 
     day++
     day %= 7
-    table = "<table><tr><th>Horas</th><th>" + getDay(day) + "</th></tr><tr>"
+    table = "<table class=\"mx-auto w-50 table table-striped\"><thead><tr class=\"text-center\"><th><scope class=\"row\">Horas</scope></th><th><scope class=\"row\">" + getDay(day) + "</scope></th></tr></thead><tbody><tr>"
     if(day > 0 && day < 6){
         for(var i = 0; i < 3 ; i++){
             table += "<td>"+getHour(i)+"</td><td>"+data[day][i]+"</td></tr><tr>"
         }
-        table += "</tr></table>"
+        table += "</tr></tbody></table>"
     }else{
         table = "<h4>¡No hay clase!</h4>"
     }
