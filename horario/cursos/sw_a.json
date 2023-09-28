@@ -1,20 +1,21 @@
 {
     "dias" : {
             "1" : [
-                "<b>Visión por Computador</b>" , "Modelado y Diseño de Software" , "Gestión de la Información"
+                "Visión por Computador" , "Modelado y Diseño de Software" , "Gestión de la Información"
                         ],
             "2" : [
-                "<b>Ingeniería de Requisitos</b>" , "Técnicas Computacionales" , "Gestión de la Información"
+                "Ingeniería de Requisitos" , "Técnicas Computacionales" , "Gestión de la Información"
                         ],
             "3" : [
-                "<b>Modelado y Diseño de Software</b>" , "Gestión de la Información" , "Visión por Computador"
+                "Modelado y Diseño de Software" , "Gestión de la Información" , "Visión por Computador"
                         ],
             "4" : [
-                "<b>Ingeniería de Requisitos</b>" , "Técnicas Computacionales" , "Modelado y Diseño de Software"
+                "Ingeniería de Requisitos" , "Técnicas Computacionales" , "Modelado y Diseño de Software"
                         ],
             "5" : [
-                "<b>Ingeniería de Requisitos</b>" , "Técnicas Computacionales" , "Visión por Computador"
+                "Ingeniería de Requisitos" , "Técnicas Computacionales" , "Visión por Computador"
                         ]
     },
-    "name" : "3º Ing. del Software A"
+    "name" : "3º A Ing. del Software"
 }
+ 

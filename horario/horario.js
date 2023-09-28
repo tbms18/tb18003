@@ -10,12 +10,23 @@ window.onload = async () => {
 
 function createTable(data) {
     var table = "<tbody>";
+    const links = {
+        "Visión por Computador" : "https://informatica.cv.uma.es/course/view.php?id=5127",
+        "Modelado y Diseño de Software" : "https://informatica.cv.uma.es/course/view.php?id=5050",
+        "Gestión de la Información" : "https://informatica.cv.uma.es/course/view.php?id=5004",
+        "Ingeniería de Requisitos" : "https://informatica.cv.uma.es/course/view.php?id=5077",
+        "Técnicas Computacionales" : "https://informatica.cv.uma.es/course/view.php?id=5119"
+    }
 
     for (var i = 0; i < 3; i++) {
         table += "<tr>"
         table += "<th scope=\"row\">" + getHour(i) + "</th>"
         for (var j = 1; j <= 5; j++) {
-            table += "<td>" + data[j][i] + "</td>"
+            if(i == 0){
+                table += "<td><a style=\"text-decoration: none; color: white\" href=\"" + links[data[j][i]] + "\"><b>" + data[j][i] + "</b></a></td>"
+            } else {
+                table += "<td><a style=\"text-decoration: none; color: white\" href=\"" + links[data[j][i]] + "\">" + data[j][i] + "</a></td>"
+            }
         }
         table += "</tr>"
     }
