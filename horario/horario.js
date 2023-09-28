@@ -23,9 +23,9 @@ function createTable(data) {
         table += "<th scope=\"row\">" + getHour(i) + "</th>"
         for (var j = 1; j <= 5; j++) {
             if(i == 0){
-                table += "<td><a style=\"text-decoration: none; color: white\" href=\"" + links[data[j][i]] + "\"><b>" + data[j][i] + "</b></a></td>"
+                table += "<td><a style=\"text-decoration: none; color: white\" href=\"" + links[data[j][i]] + "\" target=\"_blank\"><b>" + data[j][i] + "</b></a></td>"
             } else {
-                table += "<td><a style=\"text-decoration: none; color: white\" href=\"" + links[data[j][i]] + "\">" + data[j][i] + "</a></td>"
+                table += "<td><a style=\"text-decoration: none; color: white\" href=\"" + links[data[j][i]] + "\" target=\"_blank\">" + data[j][i] + "</a></td>"
             }
         }
         table += "</tr>"
