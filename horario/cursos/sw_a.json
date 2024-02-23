@@ -1,21 +1,21 @@
 {
     "dias" : {
             "1" : [
-                "Visión por Computador" , "Modelado y Diseño de Software" , "Gestión de la Información"
+                "<b>Laboratorio de Computación Científica</b>" , "Tecnologías de Aplicaciones Web" , "Tecnologías de Aplicaciones Web"
                         ],
             "2" : [
-                "Ingeniería de Requisitos" , "Técnicas Computacionales" , "Gestión de la Información"
+                "<b>Seguridad en Servicios y Aplicaciones</b>" , "Mantenimiento y Pruebas de Software" , "Interfaces de Usuario"
                         ],
             "3" : [
-                "Modelado y Diseño de Software" , "Gestión de la Información" , "Visión por Computador"
+                "<b>Interfaces de Usuario</b>" , "Tecnologías de Aplicaciones Web" , "Laboratorio de Computación Científica"
                         ],
             "4" : [
-                "Ingeniería de Requisitos" , "Técnicas Computacionales" , "Modelado y Diseño de Software"
+                "<b>Interfaces de Usuario</b>" , "Mantenimiento y Pruebas de Software" , "Seguridad en Servicios y Aplicaciones"
                         ],
             "5" : [
-                "Ingeniería de Requisitos" , "Técnicas Computacionales" , "Visión por Computador"
+                "<b>Seguridad en Servicios y Aplicaciones</b>" , "Mantenimiento y Pruebas de Software" , "Laboratorio de Computación Científica"
                         ]
     },
     "name" : "3º A Ing. del Software"
 }
- 
+            
