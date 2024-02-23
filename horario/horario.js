@@ -11,11 +11,11 @@ window.onload = async () => {
 function createTable(data) {
     var table = "<tbody>";
     const links = {
-        "Visión por Computador" : "https://informatica.cv.uma.es/course/view.php?id=5127",
-        "Modelado y Diseño de Software" : "https://informatica.cv.uma.es/course/view.php?id=5050",
-        "Gestión de la Información" : "https://informatica.cv.uma.es/course/view.php?id=5004",
-        "Ingeniería de Requisitos" : "https://informatica.cv.uma.es/course/view.php?id=5077",
-        "Técnicas Computacionales" : "https://informatica.cv.uma.es/course/view.php?id=5119"
+        "Laboratorio de Computación Científica" : "https://informatica.cv.uma.es/course/view.php?id=5152",
+        "Tecnologías de Aplicaciones Web" : "https://informatica.cv.uma.es/course/view.php?id=5224",
+        "Seguridad en Servicios y Aplicaciones" : "https://informatica.cv.uma.es/course/view.php?id=5162",
+        "Mantenimiento y Pruebas de Software" : "https://informatica.cv.uma.es/course/view.php?id=5202",
+        "Interfaces de Usuario" : "https://informatica.cv.uma.es/course/view.php?id=5230"
     }
 
     for (var i = 0; i < 3; i++) {
