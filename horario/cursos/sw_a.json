@@ -1,19 +1,19 @@
 {
     "dias" : {
             "1" : [
-                "<b>Laboratorio de Computación Científica</b>" , "Tecnologías de Aplicaciones Web" , "Tecnologías de Aplicaciones Web"
+                "Laboratorio de Computación Científica" , "Tecnologías de Aplicaciones Web" , "Tecnologías de Aplicaciones Web"
                         ],
             "2" : [
-                "<b>Seguridad en Servicios y Aplicaciones</b>" , "Mantenimiento y Pruebas de Software" , "Interfaces de Usuario"
+                "Seguridad en Servicios y Aplicaciones" , "Mantenimiento y Pruebas de Software" , "Interfaces de Usuario"
                         ],
             "3" : [
-                "<b>Interfaces de Usuario</b>" , "Tecnologías de Aplicaciones Web" , "Laboratorio de Computación Científica"
+                "Interfaces de Usuario" , "Tecnologías de Aplicaciones Web" , "Laboratorio de Computación Científica"
                         ],
             "4" : [
-                "<b>Interfaces de Usuario</b>" , "Mantenimiento y Pruebas de Software" , "Seguridad en Servicios y Aplicaciones"
+                "Interfaces de Usuario" , "Mantenimiento y Pruebas de Software" , "Seguridad en Servicios y Aplicaciones"
                         ],
             "5" : [
-                "<b>Seguridad en Servicios y Aplicaciones</b>" , "Mantenimiento y Pruebas de Software" , "Laboratorio de Computación Científica"
+                "Seguridad en Servicios y Aplicaciones" , "Mantenimiento y Pruebas de Software" , "Laboratorio de Computación Científica"
                         ]
     },
     "name" : "3º A Ing. del Software"
