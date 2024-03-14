@@ -1,4 +1,4 @@
-# portfolio :)
+# my portfolio :)
 (Currently studying Software Engineering at UMA)
 
 ## Programming Languages
@@ -7,7 +7,15 @@
 - ⚡ C/C++
 - 🐍 Python
 - 📱 Dart (Flutter)
-- 🛢  SQL
+- 📜 Javascript
+
+## Databases (I have managed)
+- 🐬 MySQL / MariaDB
+- 🐘 PostgreSQL
+- 💾 SQLite
+
+## Projects where I have been involved
+- 🦫 [Orcast](https://www.yellowbeavers.com)
 
 ## 📍 Languages (I speak)
 - 🥘 Spanish
